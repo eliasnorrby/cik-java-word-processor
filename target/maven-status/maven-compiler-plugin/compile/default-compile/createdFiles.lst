@@ -1,0 +1,15 @@
+rules/WordList.class
+transformers/IWordTransformer.class
+rules/WordList$1.class
+transformers/ReversalTransformer.class
+rules/CapitalizationRule.class
+transformers/SwapHalvesTransformer.class
+transformers/SubstitutionTransformer.class
+transformers/CapitalizationTransformer.class
+WordProcessor.class
+rules/IWordRule.class
+TooManySpecialCharactersException.class
+rules/ReversalRule.class
+rules/SwapHalvesRule.class
+WordProcessor$1.class
+rules/SubstitutionRule.class
