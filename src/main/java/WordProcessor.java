@@ -1,3 +1,4 @@
+import rules.IWordRule;
 import transformers.*;
 
 import java.util.ArrayList;
@@ -10,7 +11,7 @@ public class WordProcessor {
     private ArrayList<IWordTransformer> transformers;
 
     public WordProcessor() {
-        transformers = new ArrayList<>() {
+        transformers = new ArrayList<IWordTransformer>() {
             {
                 add(new CapitalizationTransformer());
                 add(new ReversalTransformer());

@@ -1,9 +1,0 @@
-WordProcessorTest.class
-rules/SwapHalvesRuleTest.class
-rules/ReversalRuleTest.class
-transformers/SwapHalvesTransformerTest.class
-transformers/ReversalTransformerTest.class
-transformers/CapitalizationTransformerTest.class
-rules/SubstitutionRuleTest.class
-transformers/SubstitutionTransformerTest.class
-rules/CapitalizationRuleTest.class

@@ -23,6 +23,14 @@ node {
             currentBuild.result='FAILURE'
         }
     }
+
+    stage('Archival') {
+        try {
+            step([$class: 'JUnitResultArchiver', testResults: 'target/surefire-reports/TEST-*.xml'])
+        } catch (err) {
+            echo "Error archiving test results"
+        }
+    }
         
     if (currentBuild.resultIsBetterOrEqualTo('SUCCESS')) {
         slackSend color: 'good', message: "${display_name} : Build SUCCESS"

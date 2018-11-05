@@ -20,7 +20,7 @@ public class WordList {
             "ortgj"
     };
 
-    public static final HashMap<String, String> WORDS_TO_SUBSTITUTE = new HashMap<>() {
+    public static final HashMap<String, String> WORDS_TO_SUBSTITUTE = new HashMap<String, String>() {
         {
             put("företaget", "Forefront");
             put("förpestas", "förgyllas");
